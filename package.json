@@ -1,6 +1,6 @@
 {
   "name": "@zys-contrib/koa",
-  "version": "2.12.1",
+  "version": "2.13.0-beta.0",
   "description": "Koa web app framework",
   "main": "lib/application.js",
   "exports": {
