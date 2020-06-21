@@ -1,5 +1,5 @@
 {
-  "name": "koa",
+  "name": "@zys-contrib/koa",
   "version": "2.12.1",
   "description": "Koa web app framework",
   "main": "lib/application.js",
@@ -10,7 +10,10 @@
     "bench": "make -C benchmarks",
     "authors": "git log --format='%aN <%aE>' | sort -u > AUTHORS"
   },
-  "repository": "koajs/koa",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koajs/koa.git"
+  },
   "keywords": [
     "web",
     "app",
@@ -63,5 +66,15 @@
   },
   "files": [
     "lib"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/koajs/koa/issues"
+  },
+  "homepage": "https://github.com/koajs/koa#readme",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "test"
+  },
+  "author": ""
 }
